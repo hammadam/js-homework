@@ -20,7 +20,6 @@ function getValueAtObject(obj, key) {
     throw new Error(
       `Error ! getValueAtObject 함수에는 알맞은 key를 입력해주세요. person에는 ${key}의 값이 없습니다.`
     );
-    //console.log(`Error ! getValueAtObject 함수에는 알맞은 key를 입력해주세요. person에는 ${key}의 값이 없습니다.`);
   }
 }
 ```
@@ -37,7 +36,6 @@ function getNumberAtArray(arr, index) {
     }
   } else {
     throw new Error(`Error ! numbers 배열에는 ${index}번째 값이 없습니다.`);
-    //console.log(`Error ! numbers 배열에는 ${index}번째 값이 없습니다.`);
   }
 }
 ```
