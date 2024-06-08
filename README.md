@@ -1,7 +1,5 @@
 # js-homework
 
----
-
 ### Mission-0
 
 [바로가기](https://github.com/hammadam/js-homework/blob/main/mission01/naver_login/js/main.js)
