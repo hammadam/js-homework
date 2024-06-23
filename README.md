@@ -48,7 +48,7 @@ function getNumberAtArray(arr, index) {
 
 - [x] **문제:** 일치하는 아이디와 비밀번호를 입력했을 경우 welcome 페이지로 이동하는 코드 로직을 작성해주세요.
 
-**제공된 코드**
+### 🍀 제공된 코드
 
 ```javascript
 const user = {
@@ -69,9 +69,9 @@ function pwReg(text) {
 }
 ```
 
-### 문제풀이
+### 🍀 문제풀이
 
-1. 이메일 체크
+**1. 이메일 체크**
 
 - 이메일 형식이 올바른지 체크
 - 올바르면 input에 클래스 `is--invalid` 삭제
@@ -90,7 +90,7 @@ userEmailInput.addEventListener("input", function () {
 });
 ```
 
-2. 비밀번호 체크
+**2. 비밀번호 체크**
 
 - 비밀번호 형식이 올바른지 체크
 - 올바르면 input에 클래스 `is--invalid` 삭제
@@ -109,7 +109,7 @@ userPasswordInput.addEventListener("input", function () {
 });
 ```
 
-3. 로그인 버튼 클릭 이벤트
+**3. 로그인 버튼 클릭 이벤트**
 
 - 로그인 버튼 클릭시 addEventListener 동작
 - user.id의 값과 input에 작성된 `email` 값 비교
@@ -133,7 +133,7 @@ document
   });
 ```
 
-### 리뷰
+### 🍀 리뷰
 
 **🙃 아쉬운 부분**
 
@@ -143,7 +143,7 @@ document
 
 > 사용자가 email이나 password를 작성할 때마다 이벤트가 발생해야하니 키보드 관련 이벤트를 사용해야 할까 고민했었는데, 챗지피티가 도와줘서 작성하게 된 코드를 보니 `input` 이라는 이벤트를 사용한 것이 보였습니다.
 
-`input` 이벤트
+**`input` 이벤트**
 
 - 사용자가 값을 수정할 때마다 발생.
 - 키보드 이벤트와 달리 마우스, 키보드, 음성인식 등 어떤 방법으로든 값을 입력, 변경할 때 발생.
